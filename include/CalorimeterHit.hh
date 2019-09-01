@@ -38,8 +38,7 @@ class CalorimeterHit : public G4VHit
 			G4int GetCalorimeterID()		 	{return fCalorimeterID;}
 			G4int GetCellID() 				{return fCellID;}
     			G4int GetTrackID() 				{return fTrackID;}
-    			G4int GetTrackPDG() 				{return fTrackPDG;}
-			G4ThreeVector GetPosition() 			{return fPos;}
+    			G4int GetTrackPD
 			G4int GetNumInteractions() 			{return fNumInteractions;}
     			G4String GetProcessName() 			{return fName;}
     			G4ThreeVector GetPolarizationIn()  		{return fPolarizationIn;}
